@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 
 namespace SecondProject
@@ -9,10 +10,6 @@ namespace SecondProject
         {
             MainMenu.Hotel();
             Console.ReadKey();
-
-
-
-
 
         }
     }

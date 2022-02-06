@@ -8,6 +8,13 @@ namespace SecondProject
 {
     public abstract class Person
     {
+        public const string NameofHotel = "PATIENCE HOTEL AND SUITE";
+        public string Firstname { get; set; }
+        public string LastName { get; set; }
+        public string MiddleName { get; set; }
+        public string Phonenumber { get; set; }
+        public int Age { get; set; }
+        public string Address { get; set; }
         public Person(string firstname, string lastName, string middleName, string phonenumber, int age, string address)
         {
             Firstname = firstname;
@@ -17,16 +24,12 @@ namespace SecondProject
             Age = age;
             Address = address;
         }
-        public Person()
+
+        protected Person()
         {
 
         }
-        public const string NameofHotel = "PATIENCE HOTEL AND SUITE";
-        public string Firstname { get; set; }
-        public string LastName { get; set; }
-        public string MiddleName { get; set; }
-        public string Phonenumber { get; set; }
-        public int Age { get; set; }
-        public string Address { get; set; }
+
+       
     }
 }
